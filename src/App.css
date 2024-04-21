@@ -7,8 +7,78 @@
     font-family: "Poppins", sans-serif;
 }
 
+
+.loginpagebox{
+    display: none;
+    height: 100vh;
+    width: 100vw;
+    background-color: #171717;
+    justify-content: center;
+    align-items: center;
+}
+.loginpageheader{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    /* border: 1px solid white; */
+}
+.loginpageheading{
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    /* border: 1px solid white; */
+}
+.loginpageinputbox{
+    height: 72vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logininputarea{
+    height: 50px;
+    width: 300px;
+    background-color: transparent;
+    padding: 20px 20px;
+    font-size: 1.3rem;
+    border: 1px solid rgba(255, 255, 255, 0.336);
+    border-radius: 10px;
+}
+.loginbuttonclass{
+    height: 60px;
+    background-color: transparent;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.295);
+    width: 100px;
+    font-size: 1.4rem;
+}
+.loginbuttonclass:hover{
+    cursor: pointer;
+}
+.logintext{
+    font-size: 1.2rem;
+    padding-bottom: 30px;
+}
+.fonttext{
+    font-size: 1.2rem;
+}
+
+i{
+    margin-right: 5px;
+    /* font-size: 25px; */
+}
 .box{
     display: flex;
+}
+.padding-bottom{
+    padding-bottom: 10px;
 }
 .rightbox{
     height: 100vh;
@@ -52,7 +122,7 @@
 }
 .promptdiv{
     margin: 7px 0px;
-    /* border: 1px solid beige; */
+    border: 1px solid rgba(245, 245, 220, 0.123);
     padding: 8px;
     border-radius: 5px;
 }
@@ -87,6 +157,19 @@
     font-size: 1.5rem;
 }
 
+.loginbutton{
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center ;
+    background-color: transparent;
+    font-size: 1.1rem;
+}
+.loginbutton:hover{
+    cursor: pointer;
+}
+
 .welcometextareaclass{
     display: flex;
     height: 100%;
@@ -98,12 +181,21 @@
     font-size: 3rem;
     font-weight: 600;
 }
+
+.displayfontheading{
+    font-size: 20px;
+}
+
 .gradient-text {
     /* background-image: linear-gradient(60deg, #E21143, #FFB03A); */
     background-image: linear-gradient(60deg, #4285f4, #d96570, #d96570);
     background-clip: text;
     color: transparent;
   }
+
+.responseformatting{
+    display: none;
+}
 
 .responsearea{
     padding: 0 10rem;
@@ -118,6 +210,9 @@
 
 pre {
     white-space: pre-wrap;
+    background-color:#212121;
+    /* padding: 20px; */
+    border-radius: 10px;
 }
 
 /* width */
