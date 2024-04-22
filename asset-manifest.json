@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Enigma---AI-Chatbot/static/css/main.8c010e22.css",
-    "main.js": "/Enigma---AI-Chatbot/static/js/main.effc528c.js",
+    "main.js": "/Enigma---AI-Chatbot/static/js/main.3b329f52.js",
     "index.html": "/Enigma---AI-Chatbot/index.html",
     "main.8c010e22.css.map": "/Enigma---AI-Chatbot/static/css/main.8c010e22.css.map",
-    "main.effc528c.js.map": "/Enigma---AI-Chatbot/static/js/main.effc528c.js.map"
+    "main.3b329f52.js.map": "/Enigma---AI-Chatbot/static/js/main.3b329f52.js.map"
   },
   "entrypoints": [
     "static/css/main.8c010e22.css",
-    "static/js/main.effc528c.js"
+    "static/js/main.3b329f52.js"
   ]
 }
