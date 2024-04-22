@@ -12,19 +12,17 @@ function App() {
 
   const handelSubmit = async (e) => {
     e.preventDefault()
+    document.getElementById("welcometextarea").style.display = "none";
+    setDisplayPrompt(prompt)
+    document.getElementById("responseformattingid").style.display = "block";
+    document.getElementById("pretagarea").style.padding = "20px";
+    setResponse("Loading.....")
     const inputplace = document.getElementById("inputplaceid")
     inputplace.value = ""
-    // {runChat(prompt)}
     setInputplaceholder("Loading.....")
     const r = await runChat(prompt)
     setInputplaceholder("Enter your prompt")
     setResponse(r)
-    console.log(response)
-    setDisplayPrompt(prompt)
-
-    document.getElementById("welcometextarea").style.display = "none";
-    document.getElementById("responseformattingid").style.display = "block";
-    document.getElementById("pretagarea").style.padding = "20px";
   }
 
   const handleLoginButton = () => {
